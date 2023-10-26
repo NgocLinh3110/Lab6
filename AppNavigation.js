@@ -14,8 +14,8 @@ const AppNavigation = () => {
         screenOptions={{ headerShown: false }}
       >
         <Stack.Screen name="main" component={Screen01} />
-        <Stack.Screen name="pickBike" component={Screen02} />
-        <Stack.Screen name="bikeDetail" component={Screen03} />
+        <Stack.Screen name="chooseBike" component={Screen02} />
+        <Stack.Screen name="DetailBike" component={Screen03} />
       </Stack.Navigator>
     </NavigationContainer>
   );
